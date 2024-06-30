@@ -1,0 +1,5 @@
+ARM5 
+-> FreeRTOS 使用 ./FreeRTOS/portable/RVDS 文件夹
+
+ARM6
+-> FreeRTOS 使用 ./FreeRTOS/portable/ARMClang 文件夹
