@@ -52,7 +52,7 @@
           <OutputName>STM32F407_RTOS</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -404,6 +404,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\USER\Src\stm32f4xx_it.c</FilePath>
             </File>
+            <File>
+              <FileName>FreeRTOS.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\USER\Src\FreeRTOS.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -723,31 +728,24 @@
         </Group>
         <Group>
           <GroupName>Middlewares/FreeRTOS/portable/RVDS</GroupName>
-          <Files>
-            <File>
-              <FileName>port.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>Middlewares/LVGL/porting</GroupName>
           <Files>
             <File>
-              <FileName>lv_port_disp_template.c</FileName>
+              <FileName>lv_port_disp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_disp_template.c</FilePath>
+              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_disp.c</FilePath>
             </File>
             <File>
-              <FileName>lv_port_fs_template.c</FileName>
+              <FileName>lv_port_fs.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_fs_template.c</FilePath>
+              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_fs.c</FilePath>
             </File>
             <File>
-              <FileName>lv_port_indev_template.c</FileName>
+              <FileName>lv_port_indev.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_indev_template.c</FilePath>
+              <FilePath>..\..\Middlewares\LVGL\GUI\lvgl\examples\porting\lv_port_indev.c</FilePath>
             </File>
           </Files>
         </Group>
